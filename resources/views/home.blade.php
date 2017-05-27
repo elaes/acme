@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="w3-container" style ="margin-top:60px">
         <h2>External JavaScript</h2>
 
         <p id="demo">A Paragraph.</p>
