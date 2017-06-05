@@ -19,4 +19,6 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/product/json', 'ProductController@jsonData');
+
 Route::resource('product','ProductController');
